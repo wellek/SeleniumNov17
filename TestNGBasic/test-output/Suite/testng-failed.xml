@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="IE"/>
+  <test name="InternetExploreTest(failed)">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="demo.CBT">
+        <methods>
+          <include name="titleVerification"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- demo.CBT -->
+    </classes>
+  </test> <!-- InternetExploreTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
